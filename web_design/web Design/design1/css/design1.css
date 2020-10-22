@@ -1,0 +1,96 @@
+/*common css*/
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: #fff; 
+    font-size: 15px; 
+    line-height: 1.5em;}
+p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-weight: 700; line-height: 1.5em;}
+.content{width: 1170px; margin: 0 auto}
+a{transition:0.5s; text-decoration: none;}
+/*header area*/
+.top_header_area{background: #b3cce1; padding: 18px 0; overflow: hidden;}
+.top_header_area .social_area ul li{display:inline-block; margin-right: 5px;}
+.top_header_area .inner_header{overflow: hidden;}
+.top_header_area .social_area{float: left; width: 50%}
+.top_header_area .social_area ul{margin:0;padding: 0; list-style: none; text-align: left}
+.top_header_area .social_area ul li a{background: #85afd2 ; 
+    color: #fff; width:50px; 
+    height:30px; 
+    display: block;
+text-align: center; padding-top: 20px; border-radius: 50%; }
+.top_header_area .social_area ul li a:hover{background: #fff; color: #85afd2 }
+.top_header_area .search_area{float: right; width:40%; margin:0;}
+.top_header_area .search_area form{text-align: right}
+.top_header_area .search_area input[type="text"]{background: #fff; 
+    border: 0;
+    padding:10 px;
+    font-weight: 600;
+    font-size:14px; 
+    padding :20px}
+.top_header_area .search_area input[type="submit"]{background: #85afd2; 
+    color:#fff;
+    border: 0;
+    font-weight: 600;
+    font-size:14px; 
+    padding: 20px ;}
+.top_header_area .search_area input[type="submit"]:hover{background:#fff;
+    color:#85afd2 ;
+    text-decoration: none;
+    transition: 0.5s;}
+.main_menu{background: #fff; height: 52px}
+.main_menu ul{margin: 0 auto; padding: 0;list-style: none; text-align: right;}
+.main_menu ul li{display: inline-block; margin: 0 5px;}
+.main_menu ul li a{color: #85afd2; 
+    font-size: 14px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    display:block ; 
+    padding: 15px 50px;}
+.main_menu ul li a:hover{background:#85afd2; color:#fff}
+.welcome_area{background:#b3cce1; 
+    width:100%; 
+    padding: 50px 0; 
+    overflow: hidden;}
+.welcome_area .inner_welcome_area{overflow: hidden;}
+.welcome_area .left_welcome{background: #85afd2;width: 30%; float: left; height: 250px; text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto}
+.welcome_area .left_welcome:hover{background: #fff; color: #85afd2;}
+.welcome_area .right_welcome{width: 30%; float: right; background: #85afd2; 
+    height: 250px; 
+    color:#85afd2 ;
+    text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto; }
+.welcome_area .right_welcome:hover{background:white;color: #85afd2;}
+.welcome_area .center_welcome{width: 30%; float: center; background: #85afd2; 
+    height: 250px; 
+    color:#85afd2 ;
+    text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto;}
+.welcome_area .center_welcome:hover{background:white;color: #85afd2;}
+.welcome_area1{background:#b3cce1; 
+    width:100%; 
+    padding: 50px 0; 
+    overflow: hidden;}
+.welcome_area1 .inner_welcome_area1{overflow: hidden;}
+.welcome_area1 .left_welcome1{background: #85afd2;width: 30%; float: left; height: 250px; text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto}
+.welcome_area1 .left_welcome1:hover{background: #fff; color: #85afd2;}
+.welcome_area1 .right_welcome1{width: 30%; float: right; background: #85afd2; 
+    height: 250px; 
+    color:#85afd2 ;
+    text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto; }
+.welcome_area1 .right_welcome1:hover{background:white;color: #85afd2;}
+.welcome_area1 .center_welcome1{width: 30%; float: center; background: #85afd2; 
+    height: 250px; 
+    color:#85afd2 ;
+    text-align: center; 
+    border-radius: 5% 25%; 
+    margin: auto;}
+.welcome_area1 .center_welcome1:hover{background:white;color: #85afd2;}
+.footer_area{background: #85afd2; height: 100px;}
